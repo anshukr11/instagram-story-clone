@@ -6,7 +6,7 @@ import { StoryItem } from "./StoryItem";
 
   // Main component for the stories feature
 export const InstagramStories: React.FC = () => {
-const [stories, setStories] = useState<Story[]>(dummyStories);
+const [stories] = useState<Story[]>(dummyStories);
 const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 const wrapperRef = useRef<HTMLDivElement>(null);
 
