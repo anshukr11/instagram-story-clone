@@ -1,11 +1,11 @@
 import './App.css';
-import { InstagramStories } from './InstagramStory/InstagramStory';
+import NewsStories from './NewsStories/NewsStory';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <InstagramStories />
+        <NewsStories />
       </header>
     </div>
   );
